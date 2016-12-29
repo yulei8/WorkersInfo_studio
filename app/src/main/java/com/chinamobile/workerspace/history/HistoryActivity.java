@@ -96,7 +96,9 @@ public class HistoryActivity extends Activity implements MyDeleteCallback {
 
 	private void GotoActivity(HistoryItem item){
 	    Intent  mainui = new Intent();
-	    
+
+
+
 	    if(item.getItem_type() == HistoryType.QUERY_GROUP ){
 			
 	    	
