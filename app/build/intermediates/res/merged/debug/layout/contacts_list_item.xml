@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"    
+    android:background="#fff0f3f6"
+   >
+   
+    <TextView
+        android:id="@+id/txt_catalog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:paddingLeft="12dp"
+        android:text="A"
+        android:visibility="visible"
+        android:textColor="@color/bluejeff"
+        />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/common_list_item_background"
+    android:paddingBottom="3dp"
+    android:paddingTop="3dp"   
+    >
+    
+    <RelativeLayout
+        android:id="@+id/contacts_item_left_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp" >
+        
+        <ImageView
+	        android:id="@+id/contact_item_icon"
+	        android:layout_width="90dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5dp"
+	        android:layout_marginBottom="5dp"
+	        android:layout_centerInParent="true" 
+	        android:src="@drawable/test_image"/>        
+        
+    </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/contact_item_text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/contacts_item_left_layout"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center|left"
+        android:text="name"
+        
+        android:textSize="25sp" />
+    
+    <TextView
+        android:id="@+id/contact_item_second_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/contacts_item_left_layout"
+       
+        android:layout_below="@id/contact_item_text_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center|left"
+        android:text="name1"
+        android:textSize="22sp" />
+    
+    <TextView
+        android:id="@+id/contact_item_third_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/contacts_item_left_layout"
+       
+        android:layout_alignBottom="@id/contacts_item_left_layout"
+        android:layout_marginLeft="10dp"
+        
+        android:layout_marginBottom="5dp"
+        android:gravity="center|left"
+        android:text="name2"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/contact_item_fourth_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/contact_item_third_line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignBottom="@id/contacts_item_left_layout"
+        android:visibility="gone"
+        android:gravity="center|left"
+        android:text="mobile"
+        android:textSize="20sp" />
+</RelativeLayout>
+</LinearLayout>

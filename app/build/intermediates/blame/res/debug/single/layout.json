@@ -1,0 +1,382 @@
+[
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_entry.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\main_entry.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\person_family_listview.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\person_family_listview.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\total_statistics_page.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\total_statistics_page.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\settings_page.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\settings_page.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_dialog_custom.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\layout_dialog_custom.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_distance.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\view_distance.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\password_change.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\password_change.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\statics_list_view_item.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\statics_list_view_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_progress_dialog.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\custom_progress_dialog.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_spn_dropdown.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\row_spn_dropdown.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\filemgr_main.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\filemgr_main.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_dialog.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\history_listview_item.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\history_listview_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\statics_barchart_view.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\statics_barchart_view.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rd_item_end.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\rd_item_end.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\person_experience_view.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\person_experience_view.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_item.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\listview_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\choose_item.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\choose_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\person_detail_list_view.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\person_detail_list_view.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\entry_grid_item.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\entry_grid_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\passwordlogin.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\passwordlogin.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toggle_button.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\toggle_button.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\about.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\person_query.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\person_query.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\group_list.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\group_list.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\group_main_list.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\group_main_list.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\person_resume.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\person_resume.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rd_item_dropdown_mode.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\rd_item_dropdown_mode.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\word_list_view.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\word_list_view.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\person_family_list_item.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\person_family_list_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contacts_list.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\contacts_list.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\choose_eara_item_selector.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\choose_eara_item_selector.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\total_statics_viewpager_container.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\total_statics_viewpager_container.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\favorate_group_listview_item.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\favorate_group_listview_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\favorate_listview_item.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\favorate_listview_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\statics_list_view.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\statics_list_view.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rd_item_dropdown_end.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\rd_item_dropdown_end.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\history_listview.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\history_listview.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\humanresource__container.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\humanresource__container.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lockscreen.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\lockscreen.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\humanresource_barchart_view.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\humanresource_barchart_view.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\statics_piechart_view.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\statics_piechart_view.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\favorate_listview.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\favorate_listview.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_spn.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\row_spn.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\person_detail_container.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\person_detail_container.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_contact_replace.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\row_contact_replace.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\person_experience_listview.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\person_experience_listview.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\humanresource_piechart_view.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\humanresource_piechart_view.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_drawer.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\row_drawer.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\entry_grid.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\entry_grid.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_contact_selected.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\row_contact_selected.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\person_experience_list_item.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\person_experience_list_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contacts_list_item.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\contacts_list_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\group_main.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\group_main.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_recurring.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\dialog_recurring.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rd_item_mode.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\rd_item_mode.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_region.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\view_region.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\person_info_detail.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\layout\\person_info_detail.xml"
+    }
+]

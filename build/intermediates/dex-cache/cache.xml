@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\projects\android\WorkersInfo_studio\app\libs\pinyin4j-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="D:\projects\android\WorkersInfo_studio\app\build\intermediates\transforms\dex\debug\folders\1000\2\pinyin4j-2.5.0_341840922eecd6cb79b753163085abefb2abf829\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\projects\android\WorkersInfo_studio\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="D:\projects\android\WorkersInfo_studio\app\build\intermediates\transforms\dex\debug\folders\1000\2\nineoldandroids-2.4.0_43f22c14d37bbd51066ed8d5427375d39d5192c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\projects\android\WorkersInfo_studio\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="D:\projects\android\WorkersInfo_studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_1672e16ad92355c67df3a44b934a56c1d4c7e1f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\projects\android\WorkersInfo_studio\app\build\intermediates\exploded-aar\WorkersInfo_studio\appcompat_v7\unspecified\jars\libs\android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da351fadee6981cb47e9ee685f70924283214fda">
+        <dex dex="D:\projects\android\WorkersInfo_studio\app\build\intermediates\transforms\dex\debug\folders\1000\8\android-support-v4_a45f973031ef796d970c46356bb70e2931f6e001\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\projects\android\WorkersInfo_studio\app\build\intermediates\exploded-aar\WorkersInfo_studio\appcompat_v7\unspecified\jars\libs\android-support-v7-appcompat.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9616e435047415d6354f1fac8d12e085285b3acb">
+        <dex dex="D:\projects\android\WorkersInfo_studio\app\build\intermediates\transforms\dex\debug\folders\1000\8\android-support-v7-appcompat_717cd6aa8ed074235e903a15877e109d2aecbb59\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\projects\android\WorkersInfo_studio\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="D:\projects\android\WorkersInfo_studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_638d8a01b6471f63c0aa1b0896278ddb5b3b1b3d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\DevelopmentTools\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="D:\projects\android\WorkersInfo_studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_3cae72ba1c4c0789da4c67005c5eaf13347ed34a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\projects\android\WorkersInfo_studio\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="D:\projects\android\WorkersInfo_studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_ecd4d734c5fd9e5cd1c40656e4ed2e621b1d5469\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\projects\android\WorkersInfo_studio\app\libs\mpandroidchartlibrary-2-1-6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3f8beaf2f9b5357717e0b1ef9f6820e517784ea1">
+        <dex dex="D:\projects\android\WorkersInfo_studio\app\build\intermediates\transforms\dex\debug\folders\1000\2\mpandroidchartlibrary-2-1-6_5defaf3bfcbe8baae3fd73481906ee960db5037f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\projects\android\WorkersInfo_studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\projects\android\WorkersInfo_studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_5259d7e8a59f4c885964376bb1689d6a9573a9d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\projects\android\WorkersInfo_studio\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e42d5406ae850b164bac673cf07e82228de8fe14">
+        <dex dex="D:\projects\android\WorkersInfo_studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_84e1b9f27b95e331e50c1292e500d8775d4f566a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\projects\android\WorkersInfo_studio\app\libs\universal-image-loader-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f667a2f4f27542fe11a6781f5f7ac572d27afcec">
+        <dex dex="D:\projects\android\WorkersInfo_studio\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.0_fca62b5ef4ef7e06a546578d710c81b05b823d1b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\projects\android\WorkersInfo_studio\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7f2420506110902f033406b25697cf97ee8c38b2">
+        <dex dex="D:\projects\android\WorkersInfo_studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.1.0_2f2074321fc5e55109cbed5b055274433628ccd8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\projects\android\WorkersInfo_studio\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7d18f3f45764bd2c7067c0cd76d118771deaba79">
+        <dex dex="D:\projects\android\WorkersInfo_studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_9ea33baa06d86e9947440f98cf700722e1adf03e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\projects\android\WorkersInfo_studio\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="D:\projects\android\WorkersInfo_studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_134683613bcff1613c60f7f91d8fc02823b57fe9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\projects\android\WorkersInfo_studio\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="D:\projects\android\WorkersInfo_studio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_e083a2a33b72602f5725cf97ba86e6efb3e2de65\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\projects\android\WorkersInfo_studio\app\libs\picasso-2.3.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1262995965440e28ba5c4d480c9c9ab4ccce84cc">
+        <dex dex="D:\projects\android\WorkersInfo_studio\app\build\intermediates\transforms\dex\debug\folders\1000\2\picasso-2.3.3_b870641cbe6f14ed4c60aaaf76083d80f35b08f0\classes.dex" />
+    </item>
+
+</items>

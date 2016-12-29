@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chinamobile.workerspace"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:persistent="true"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Default.NoTitleBar" >
+        <activity
+            android:name="com.chinamobile.workerspace.WorkersInfoActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Default.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.chinamobile.workerspace.login.LockScreenActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="locale|keyboardHidden|screenSize"
+            android:exported="true"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Default.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chinamobile.workerspace.login.PasswordLoginActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="locale|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.chinamobile.workerspace.statics.Statics_containerActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="locale|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.chinamobile.workerspace.settings.SettingsActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="locale|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.chinamobile.workerspace.settings.ChangePasswordActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="locale|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.chinamobile.workerspace.settings.ChangeGestureActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="locale|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.chinamobile.workerspace.settings.AboutActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="locale|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.chinamobile.workerspace.statics.StaticsListActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="locale|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:label="总体统计分析"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.chinamobile.workerspace.humanresource.humanresource_containerActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="locale|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.chinamobile.workerspace.contacts.ContactsListActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="locale|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:label="人员信息查询"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.chinamobile.workerspace.resume.resume_containerActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="locale|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.chinamobile.workerspace.favorite.FavorateActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="locale|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:label="人员或组织收藏"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.chinamobile.workerspace.group.GroupListActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="locale|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:label="组织机构查询"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.chinamobile.workerspace.history.HistoryActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="locale|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:label="历史纪录查询"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.chinamobile.workerspace.filemanagement.FileChooserActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.chinamobile.filemanager.start" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

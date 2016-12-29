@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\skin_gray3.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\color\\skin_gray3.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\skin_dark_gray_item.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\color\\skin_dark_gray_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\skin_gray3_item.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\color\\skin_gray3_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\skin_menu.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\color\\skin_menu.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\skin_gray_group_item.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\color\\skin_gray_group_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\skin_dark_gray.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\color\\skin_dark_gray.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\skin_search_button.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\color\\skin_search_button.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\skin_aio_send_button.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\color\\skin_aio_send_button.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\login_findpass_button_selector.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\color\\login_findpass_button_selector.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\skin_color_button.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\color\\skin_color_button.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\skin_input.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\color\\skin_input.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\skin_blue.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\color\\skin_blue.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\skin_blue_item.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\color\\skin_blue_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\skin_hint_input.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\color\\skin_hint_input.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\skin_gray2.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\color\\skin_gray2.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\skin_gray2_item.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\color\\skin_gray2_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\skin_black_group_item.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\color\\skin_black_group_item.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\skin_black.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\color\\skin_black.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\skin_bar_text.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\color\\skin_bar_text.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\skin_button.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\color\\skin_button.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    }
+]

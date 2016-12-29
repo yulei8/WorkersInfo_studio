@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\menu\\onlymain.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\menu\\onlymain.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\menu\\withclear.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\menu\\withclear.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\menu\\back.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\menu\\back.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\menu\\contactsview.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\menu\\contactsview.xml"
+    }
+]

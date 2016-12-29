@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"        
+        android:fillViewport="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shape_bg"
+            android:orientation="vertical">
+
+            <RelativeLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="45dp"
+		        android:visibility="gone"
+		        android:background="@drawable/title_bar" >
+		        
+		        <Button
+		            android:layout_width="65dp"
+		            android:layout_height="40dp"
+		            android:layout_centerVertical="true"
+		            android:layout_marginLeft="10dip"
+		            android:background="@drawable/top_back_left"
+		            android:gravity="center_horizontal|center_vertical"
+		            android:padding="0dp"
+		            android:text="back"
+		            android:textColor="#ffffff"
+		            android:textSize="12sp"
+		            android:visibility="invisible" />
+		        <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_centerInParent="true"
+		            android:text="@string/app_name"
+		            android:textColor="#ffffff"
+		            android:textSize="25sp" />                
+		    </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/update_data_panel"
+                android:layout_width="fill_parent"
+                android:layout_height="60.0dip"
+                android:background="@drawable/common_strip_setting_middle"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:focusable="false" >
+                
+                <ImageView
+                    android:id="@+id/dataupdateimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"   
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="10.0dip"
+                    android:layout_marginLeft="20.0dip"
+                    android:src="@drawable/set_sjgx" />
+                
+                <TextView
+                    style="@style/B4_Font_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12.0dip"
+                    android:layout_toRightOf="@id/dataupdateimg"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:text="@string/dataupdate" />
+                
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10.0dip"
+                    android:contentDescription="@null"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/common_arrow_right_selector" />
+          
+            </RelativeLayout>
+            
+            
+            <RelativeLayout
+                android:id="@+id/password_change_panel"
+                android:layout_width="fill_parent"
+                android:layout_height="60.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="@drawable/common_strip_setting_middle"
+                android:clickable="true"
+                android:focusable="false" >
+
+                <ImageView
+                    android:id="@+id/changepasswordimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"   
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="10.0dip"
+                    android:layout_marginLeft="20.0dip"
+                    
+                    android:src="@drawable/set_ggmm" />
+                
+                <TextView
+                    style="@style/B4_Font_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12.0dip"
+                    android:layout_toRightOf="@id/changepasswordimg"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:text="@string/changepassword" />
+                
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10.0dip"
+                    android:contentDescription="@null"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/common_arrow_right_selector" />
+          
+            </RelativeLayout>
+          
+            <RelativeLayout
+                android:id="@+id/gesturesetting_panel"
+                android:layout_width="fill_parent"
+                android:layout_height="60.0dip"
+                android:background="@drawable/common_strip_setting_middle"
+                android:clickable="true"
+                android:focusable="false" >
+
+                <ImageView
+                    android:id="@+id/gesturesetting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"   
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="10.0dip"
+                    android:layout_marginLeft="20.0dip"
+                    android:contentDescription="@null"
+                    android:src="@drawable/set_sssz" />
+                
+                <TextView
+                    style="@style/B4_Font_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12.0dip"
+                    android:layout_toRightOf="@id/gesturesetting"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:text="@string/gesturesetting" />
+                
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10.0dip"
+                    android:contentDescription="@null"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/common_arrow_right_selector" />
+          
+            </RelativeLayout>
+            
+            
+            <RelativeLayout
+                android:id="@+id/aboutus_panel"
+                android:layout_width="fill_parent"
+                android:layout_height="60.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="@drawable/common_strip_setting_middle"
+                android:clickable="true"
+                android:focusable="false" >
+
+                <ImageView
+                    android:id="@+id/aboutusimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"   
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="10.0dip"
+                    android:layout_marginLeft="20.0dip"
+                    android:contentDescription="@null"
+                    android:src="@drawable/set_gywm" />
+                
+                <TextView
+                    style="@style/B4_Font_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12.0dip"
+                    android:layout_toRightOf="@id/aboutusimg"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:text="@string/aboutus" />
+                
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10.0dip"
+                    android:contentDescription="@null"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/common_arrow_right_selector" />
+          
+            </RelativeLayout>
+          <RelativeLayout
+                android:id="@+id/reset_panel"
+                android:layout_width="fill_parent"
+                android:layout_height="60.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="@drawable/common_strip_setting_middle"
+                android:clickable="true"
+                android:focusable="false" >
+
+                <ImageView
+                    android:id="@+id/resetimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"   
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="10.0dip"
+                    android:layout_marginLeft="20.0dip"
+                    android:contentDescription="@null"
+                    android:src="@drawable/dialog_load" />
+                
+                <TextView
+                    style="@style/B4_Font_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12.0dip"
+                    android:layout_toRightOf="@id/resetimg"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:text="数据初始化" />
+                
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10.0dip"
+                    android:contentDescription="@null"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/common_arrow_right_selector" />
+          
+            </RelativeLayout>
+            
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

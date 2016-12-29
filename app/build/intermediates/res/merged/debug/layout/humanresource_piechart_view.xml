@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:eleven="http://schemas.android.com/apk/res-auto" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+  
+   
+
+    <com.chinamobile.workerspace.ui.BounceScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/coversation_bg"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:scrollbarThumbVertical="@drawable/scrollbar_handle_vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="10.0dip"
+            android:background="@drawable/shape_bg"
+            android:paddingRight="10.0dip" 
+            android:orientation="vertical">
+	        <RelativeLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="420dp"
+	            android:paddingLeft="10.0dip"
+	            android:background="@drawable/shape_bg"
+	            android:paddingRight="10.0dip" >
+	     
+	            <LinearLayout
+	                android:id="@+id/humanresource_pie_sex"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:background="@drawable/common_strip_setting_bottom"
+	                android:layout_alignParentBottom="true"
+	                android:layout_marginBottom="20.0dip"
+	                android:orientation="vertical">  
+	                
+	                <TextView
+	                    style="@style/B4_Font_white"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center"
+	                    android:layout_weight="1"
+	                    android:duplicateParentState="true"
+	                    android:gravity="center"
+	                    android:paddingLeft="10.0dip"
+	                    android:paddingRight="10.0dip"
+	                    android:singleLine="true"
+                      android:textSize="20sp"
+	                    android:text="@string/person_sex_count" />  
+	              
+	            </LinearLayout>
+	
+	            <com.github.mikephil.charting.charts.PieChart
+			         android:id="@+id/PieGraphView_human_sex_pie"
+			     	 android:layout_marginTop="20dp"
+			     	 android:layout_marginBottom="20dp"
+			         android:layout_width="fill_parent"
+			         android:layout_height="fill_parent"
+			         android:layout_above="@id/humanresource_pie_sex"
+			         android:layout_centerHorizontal="true"/>
+	            
+	        </RelativeLayout>
+	        <RelativeLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="420dp"
+	            android:paddingLeft="10.0dip"
+	            android:background="@drawable/shape_bg"
+	            android:paddingRight="10.0dip" >
+	     
+	            <LinearLayout
+	                android:id="@+id/humanresource_pie_age"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:background="@drawable/common_strip_setting_bottom"
+	                android:layout_alignParentBottom="true"
+	                android:layout_marginBottom="20.0dip"
+	                android:orientation="vertical">  
+	                
+	                <TextView
+	                    style="@style/B4_Font_white"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center"
+	                    android:layout_weight="1"
+	                    android:duplicateParentState="true"
+	                    android:gravity="center"
+	                    android:paddingLeft="10.0dip"
+	                    android:paddingRight="10.0dip"
+	                    android:singleLine="true"
+                      android:textSize="20sp"
+	                    android:text="@string/person_age_count" />  
+	              
+	            </LinearLayout>
+	
+	            <com.github.mikephil.charting.charts.PieChart
+			         android:id="@+id/PieGraphView_human_age_pie"
+			     	 android:layout_marginTop="20dp"
+			     	 android:layout_marginBottom="20dp"
+			         android:layout_width="fill_parent"
+			         android:layout_height="fill_parent"
+			         android:layout_above="@id/humanresource_pie_age"
+			         android:layout_centerHorizontal="true" />
+	           
+	        </RelativeLayout>
+	        
+	        <RelativeLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="420dp"
+	            android:paddingLeft="10.0dip"
+	            android:background="@drawable/shape_bg"
+	            android:paddingRight="10.0dip" >
+	     
+	            <LinearLayout
+	                android:id="@+id/humanresource_pie_nation"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:background="@drawable/common_strip_setting_bottom"
+	                android:layout_alignParentBottom="true"
+	                android:layout_marginBottom="20.0dip"
+	                android:orientation="vertical">  
+	                
+	                <TextView
+	                    style="@style/B4_Font_white"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center"
+	                    android:layout_weight="1"
+	                    android:duplicateParentState="true"
+	                    android:gravity="center"
+	                    android:paddingLeft="10.0dip"
+	                    android:paddingRight="10.0dip"
+	                    android:singleLine="true"
+                      android:textSize="20sp"
+	                    android:text="@string/person_nation_count" />  
+	              
+	                
+	            </LinearLayout>
+	
+	             <com.github.mikephil.charting.charts.PieChart
+			         android:id="@+id/PieGraphView_human_nation_pie"
+			     	 android:layout_marginTop="20dp"
+			     	 android:layout_marginBottom="20dp"
+			         android:layout_width="fill_parent"
+			         android:layout_height="fill_parent"
+			         android:layout_above="@id/humanresource_pie_nation"
+			         android:layout_centerHorizontal="true" />
+	           
+	        </RelativeLayout>
+	        
+	       <RelativeLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="420dp"
+	            android:paddingLeft="10.0dip"
+	            android:background="@drawable/shape_bg"
+	            android:paddingRight="10.0dip" >
+	     
+	            <LinearLayout
+	                android:id="@+id/humanresource_pie_edu"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:background="@drawable/common_strip_setting_bottom"
+	                android:layout_alignParentBottom="true"
+	                android:layout_marginBottom="20.0dip"
+	                android:orientation="vertical">  
+	                
+	                <TextView
+	                    style="@style/B4_Font_white"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center"
+	                    android:layout_weight="1"
+	                    android:duplicateParentState="true"
+	                    android:gravity="center"
+	                    android:paddingLeft="10.0dip"
+	                    android:paddingRight="10.0dip"
+	                    android:singleLine="true"
+                      android:textSize="20sp"
+	                    android:text="@string/person_edu_count" />  
+	              
+	                
+	            </LinearLayout>
+	
+	            <com.github.mikephil.charting.charts.PieChart
+			         android:id="@+id/PieGraphView_human_edu_pie"
+			     	 android:layout_marginTop="20dp"
+			     	 android:layout_marginBottom="20dp"
+			         android:layout_width="fill_parent"
+			         android:layout_height="fill_parent"
+			         android:layout_above="@id/humanresource_pie_edu"
+			         android:layout_centerHorizontal="true"/>
+	        </RelativeLayout>
+	         <RelativeLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="420dp"
+	            android:paddingLeft="10.0dip"
+	            android:background="@drawable/shape_bg"
+	            android:paddingRight="10.0dip" >
+	     
+	            <LinearLayout
+	                android:id="@+id/humanresource_pie_depth"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:background="@drawable/common_strip_setting_bottom"
+	                android:layout_alignParentBottom="true"
+	                android:layout_marginBottom="20.0dip"
+	                android:orientation="vertical">  
+	                
+	                <TextView
+	                    style="@style/B4_Font_white"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center"
+	                    android:layout_weight="1"
+	                    android:duplicateParentState="true"
+	                    android:gravity="center"
+	                    android:paddingLeft="10.0dip"
+	                    android:paddingRight="10.0dip"
+	                    android:singleLine="true"
+                      android:textSize="20sp"
+	                    android:text="@string/person_depth_count" />  
+	              
+	                
+	            </LinearLayout>
+	
+	            <com.github.mikephil.charting.charts.PieChart
+			         android:id="@+id/PieGraphView_human_depth_pie"
+			     	 android:layout_marginTop="20dp"
+			     	 android:layout_marginBottom="20dp"
+			         android:layout_width="fill_parent"
+			         android:layout_height="fill_parent"
+			         android:layout_above="@id/humanresource_pie_depth"
+			         android:layout_centerHorizontal="true" />
+	        </RelativeLayout>
+        </LinearLayout>
+    </com.chinamobile.workerspace.ui.BounceScrollView>
+
+</LinearLayout>

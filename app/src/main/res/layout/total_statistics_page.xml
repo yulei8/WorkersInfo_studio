@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"        
+        android:fillViewport="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shape_bg"
+            android:orientation="vertical">  
+
+            <RelativeLayout
+                android:id="@+id/person_sex_count"
+                android:layout_width="fill_parent"
+                android:layout_height="60.0dip"
+                android:background="@drawable/common_strip_setting_middle"
+                android:clickable="true"
+                android:focusable="false" >
+
+                <ImageView
+                    android:id="@+id/img_1_index"
+                    android:layout_width="45dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="5dip"
+                    android:layout_marginBottom="5dip"
+                    android:contentDescription="@null"
+                    android:duplicateParentState="true"
+                    android:textSize="20sp"
+                    android:src="@drawable/adk" />
+                
+                <TextView
+                    style="@style/B4_Font_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/img_1_index"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_centerVertical="true"
+                    android:duplicateParentState="true"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:text="@string/person_sex_count" />
+                
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10.0dip"
+                    android:contentDescription="@null"
+                    android:duplicateParentState="true"
+                    android:textSize="20sp"
+                    android:src="@drawable/common_arrow_right_selector" />
+          
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/person_age_count"
+                android:layout_width="fill_parent"
+                android:layout_height="60.0dip"
+                android:background="@drawable/common_strip_setting_middle"
+                android:clickable="true"
+                android:focusable="false" >
+
+                <ImageView
+                    android:id="@+id/img_2_index"
+                    android:layout_width="45dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="5dip"
+                    android:layout_marginBottom="5dip"
+                    android:contentDescription="@null"
+                    android:duplicateParentState="true"
+                    android:textSize="20sp"
+                    android:src="@drawable/adp" />
+                
+                <TextView
+                    style="@style/B4_Font_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/img_2_index"
+ 					android:layout_marginLeft="5.0dp"
+                    android:duplicateParentState="true"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:text="@string/person_age_count" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10.0dip"
+                    android:contentDescription="@null"
+                    android:duplicateParentState="true"
+                    android:textSize="20sp"
+                    android:src="@drawable/common_arrow_right_selector" />
+              
+            </RelativeLayout>
+            
+            <RelativeLayout
+                 android:id="@+id/person_nation_count"
+                android:layout_width="fill_parent"
+                android:layout_height="60.0dip"
+                android:background="@drawable/common_strip_setting_middle"
+                android:clickable="true"
+                android:focusable="false" >
+
+                <ImageView
+                    android:id="@+id/img_3_index"
+                    android:layout_width="45dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="5dip"
+                    android:layout_marginBottom="5dip"
+                    android:contentDescription="@null"
+                    android:duplicateParentState="true"
+                    android:textSize="20sp"
+                    android:src="@drawable/ads" />
+                
+                <TextView
+                    style="@style/B4_Font_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/img_3_index"
+ 					android:layout_marginLeft="5.0dp"
+                    android:duplicateParentState="true"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:text="@string/person_nation_count" />
+                
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10.0dip"
+                    android:contentDescription="@null"
+                    android:duplicateParentState="true"
+                    android:textSize="20sp"
+                    android:src="@drawable/common_arrow_right_selector" />
+              
+            </RelativeLayout>
+
+            <RelativeLayout
+                 android:id="@+id/person_edu_count"
+                android:layout_width="fill_parent"
+                android:layout_height="60.0dip"
+                android:background="@drawable/common_strip_setting_middle"
+                android:clickable="true"
+                android:focusable="false" >
+
+                <ImageView
+                    android:id="@+id/img_4_index"
+                    android:layout_width="45dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="5dip"
+                    android:layout_marginBottom="5dip"
+                    android:contentDescription="@null"
+                    android:duplicateParentState="true"
+                    android:textSize="20sp"
+                    android:src="@drawable/adw" />
+                
+                <TextView
+                    style="@style/B4_Font_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/img_4_index"
+ 					android:layout_marginLeft="5.0dp"
+                    android:duplicateParentState="true"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:text="@string/person_edu_count" />
+                
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10.0dip"
+                    android:contentDescription="@null"
+                    android:duplicateParentState="true"
+                    android:textSize="20sp"
+                    android:src="@drawable/common_arrow_right_selector" />
+              
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/person_level_count"
+                android:layout_width="fill_parent"
+                android:layout_height="60.0dip"
+                android:background="@drawable/common_strip_setting_middle"
+                android:clickable="true"
+                android:focusable="false" >
+
+                 <ImageView
+                    android:id="@+id/img_5_index"
+                    android:layout_width="45dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="5dip"
+                    android:layout_marginBottom="5dip"
+                    android:contentDescription="@null"
+                    android:duplicateParentState="true"
+                    android:textSize="20sp"
+                    android:src="@drawable/adj" />
+                 
+                <TextView
+                    style="@style/B4_Font_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/img_5_index"
+                    android:layout_marginLeft="5.0dp"
+                    android:duplicateParentState="true"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:text="@string/person_level_count" />
+                
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10.0dip"
+                    android:contentDescription="@null"
+                    android:duplicateParentState="true"
+                    android:textSize="20sp"
+                    android:src="@drawable/common_arrow_right_selector" />
+              
+            </RelativeLayout>
+            
+            <RelativeLayout
+                 android:id="@+id/person_job_count"
+                android:layout_width="fill_parent"
+                android:layout_height="60.0dip"
+                android:background="@drawable/common_strip_setting_middle"
+                android:clickable="true"
+                android:focusable="false" >
+
+                <ImageView
+                    android:id="@+id/img_6_index"
+                    android:layout_width="45dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="5dip"
+                    android:layout_marginBottom="5dip"
+                    android:contentDescription="@null"
+                    android:duplicateParentState="true"
+                    android:textSize="20sp"
+                    android:src="@drawable/adi" />
+                
+                <TextView
+                    style="@style/B4_Font_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/img_6_index"
+ 					android:layout_marginLeft="5.0dp"
+                    android:duplicateParentState="true"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:text="@string/person_job_status" />
+                
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10.0dip"
+                    android:contentDescription="@null"
+                    android:duplicateParentState="true"
+                    android:textSize="20sp"
+                    android:src="@drawable/common_arrow_right_selector" />
+              
+            </RelativeLayout>
+            
+            <RelativeLayout
+                 android:id="@+id/person_org_count"
+                android:layout_width="fill_parent"
+                android:layout_height="60.0dip"
+                android:background="@drawable/common_strip_setting_middle"
+                android:clickable="true"
+                android:visibility="gone"
+                android:focusable="false" >
+
+                <ImageView
+                    android:id="@+id/img_7_index"
+                    android:layout_width="45dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="5dip"
+                    android:layout_marginBottom="5dip"
+                    android:contentDescription="@null"
+                    android:duplicateParentState="true"
+                    android:textSize="20sp"
+                    android:src="@drawable/adh" />
+                
+                <TextView
+                    style="@style/B4_Font_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                     android:layout_toRightOf="@id/img_7_index"
+ 					android:layout_marginLeft="5.0dp"
+                    android:duplicateParentState="true"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:text="@string/person_org_count" />
+                
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10.0dip"
+                    android:contentDescription="@null"
+                    android:duplicateParentState="true"
+                    android:textSize="20sp"
+                    android:src="@drawable/common_arrow_right_selector" />
+              
+            </RelativeLayout>
+          
+        
+            
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

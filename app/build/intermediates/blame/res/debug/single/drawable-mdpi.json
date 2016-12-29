@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_up.png",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-mdpi\\ic_up.png"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\quickaction_slider_btn_normal.9.png",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-mdpi\\quickaction_slider_btn_normal.9.png"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\quickaction_arrow_up.png",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-mdpi\\quickaction_arrow_up.png"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\quickaction_slider_btn_selected.9.png",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-mdpi\\quickaction_slider_btn_selected.9.png"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_accept.png",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-mdpi\\ic_accept.png"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\quickaction_slider_btn_pressed.9.png",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-mdpi\\quickaction_slider_btn_pressed.9.png"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_notification_open.png",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-mdpi\\ic_notification_open.png"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_notify_settings_pressed.png",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-mdpi\\ic_notify_settings_pressed.png"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\quickaction_slider_btn_on.9.png",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-mdpi\\quickaction_slider_btn_on.9.png"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher_settings.png",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher_settings.png"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_notify_open_pressed.png",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-mdpi\\ic_notify_open_pressed.png"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\quickaction_bottom_frame.9.png",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-mdpi\\quickaction_bottom_frame.9.png"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\quickaction_slider_background.png",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-mdpi\\quickaction_slider_background.png"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\quickaction_slider_grip_right.png",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-mdpi\\quickaction_slider_grip_right.png"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\quickaction_arrow_down.png",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-mdpi\\quickaction_arrow_down.png"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\quickaction_slider_grip_left.png",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-mdpi\\quickaction_slider_grip_left.png"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\quickaction_top_frame.9.png",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-mdpi\\quickaction_top_frame.9.png"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_add.png",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-mdpi\\ic_add.png"
+    }
+]

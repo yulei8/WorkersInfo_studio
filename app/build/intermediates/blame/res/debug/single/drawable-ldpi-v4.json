@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\white_btn.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-ldpi\\white_btn.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\btn_search_background.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-ldpi\\btn_search_background.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\grey_btn.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-ldpi\\grey_btn.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\blue_btn.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-ldpi\\blue_btn.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\title_btn_back.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-ldpi\\title_btn_back.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\green_2.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-ldpi\\green_2.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\register_btn_bg.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-ldpi\\register_btn_bg.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\deny_button.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-ldpi\\deny_button.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\top_back_left.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-ldpi\\top_back_left.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\mm_listitem.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-ldpi\\mm_listitem.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\title_btn_right.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-ldpi\\title_btn_right.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\back.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\src\\main\\res\\drawable-ldpi\\back.xml"
+    }
+]

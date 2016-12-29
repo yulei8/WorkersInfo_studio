@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="fill_parent"  
+     android:layout_height="fill_parent"  
+     android:scrollbars="vertical"  
+     android:fadingEdge="vertical">  
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"    
+    android:background="@drawable/skin_common_btn_white_pressed"
+   >
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"   
+    
+    >
+     <Button
+        android:id="@+id/sure_filter"
+        style="@style/ButtonGreen"
+        android:layout_width="120.0dip"
+        android:layout_height="46.0dip"    
+        android:layout_alignParentRight="true"     
+        android:layout_marginRight="20.0dip"
+        android:text="确定" />
+     
+     <Button
+        android:id="@+id/reset"
+        style="@style/ButtonRed"
+        android:layout_width="120.0dip"
+       
+        android:layout_height="46.0dip"    
+        android:layout_toLeftOf="@id/sure_filter"    
+        android:layout_marginRight="20.0dip"
+        android:text="重置" />
+     
+   </RelativeLayout>
+    
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:paddingBottom="3dp"
+    android:paddingTop="3dp"   
+    android:visibility="gone"
+    >
+    
+   <com.rey.material.widget.RadioButton
+                style="@style/Material.Drawable.RadioButton"
+                android:id="@+id/zgzt_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:textDirection="locale"
+                android:text="@string/all"
+                android:gravity="center_vertical"
+                android:checked="true"
+                android:textSize="22sp"
+                app:v_styleId="@array/radio_button"/>
+    
+    <com.rey.material.widget.RadioButton
+                style="@style/Material.Drawable.RadioButton"
+                android:id="@+id/zgzt_zg"
+                android:layout_toRightOf="@id/zgzt_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:textDirection="locale"
+                android:text="@string/zgzt_zg"
+                android:gravity="center_vertical"
+                android:checked="false"
+                android:textSize="22sp"
+                app:v_styleId="@array/radio_button"/>
+    
+    <com.rey.material.widget.RadioButton
+                style="@style/Material.Drawable.RadioButton"
+                android:id="@+id/zgzt_lz"
+                android:layout_toRightOf="@id/zgzt_zg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:textDirection="locale"
+                android:text="@string/zgzt_lz"
+                android:textSize="22sp"
+                android:gravity="center_vertical"
+                android:checked="false"
+                app:v_styleId="@array/radio_button"/>
+    <com.rey.material.widget.RadioButton
+                style="@style/Material.Drawable.RadioButton"
+                android:id="@+id/zgzt_tx"
+                android:layout_toRightOf="@id/zgzt_lz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:textDirection="locale"
+                android:text="@string/zgzt_tx"
+                android:textSize="22sp"
+                android:gravity="center_vertical"
+                android:checked="false"
+                app:v_styleId="@array/radio_button"/>
+</RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:background="@drawable/common_list_item_background_nopressed"
+    >
+    
+   <com.rey.material.widget.RadioButton
+                style="@style/Material.Drawable.RadioButton"
+                android:id="@+id/sex_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textDirection="locale"
+                android:text="@string/all"
+                android:textSize="22sp"
+                android:gravity="center_vertical"
+                android:checked="true"
+                app:v_styleId="@array/radio_button"/>
+    
+    <com.rey.material.widget.RadioButton
+                style="@style/Material.Drawable.RadioButton"
+                android:id="@+id/sex_male"
+                android:layout_toRightOf="@id/sex_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:textDirection="locale"
+                android:text="@string/male"
+                android:textSize="22sp"
+                android:gravity="center_vertical"
+                android:checked="false"
+                app:v_styleId="@array/radio_button"/>
+    
+    <com.rey.material.widget.RadioButton
+                style="@style/Material.Drawable.RadioButton"
+                android:id="@+id/sex_female"
+                android:layout_toRightOf="@id/sex_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:textDirection="locale"
+                android:text="@string/female"
+                android:textSize="22sp"
+                android:gravity="center_vertical"
+                android:checked="false"
+                app:v_styleId="@array/radio_button"/>
+</RelativeLayout>
+ 
+
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    
+    android:paddingLeft="20dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:background="@drawable/common_list_item_background_nopressed"
+    >
+    
+   <com.rey.material.widget.RadioButton
+                style="@style/Material.Drawable.RadioButton"
+                android:id="@+id/minzu_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_centerVertical="true"
+                android:textDirection="locale"
+                android:text="@string/all"
+                android:textSize="22sp"
+                android:gravity="center_vertical"
+                android:checked="true"
+                app:v_styleId="@array/radio_button"/>
+    
+    <com.rey.material.widget.RadioButton
+                style="@style/Material.Drawable.RadioButton"
+                android:id="@+id/minzu_han"
+                android:layout_toRightOf="@id/minzu_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:textDirection="locale"
+                android:textSize="22sp"
+                android:text="@string/chaoxianzu"
+                android:gravity="center_vertical"
+                android:checked="false"
+                app:v_styleId="@array/radio_button"/>
+    
+    <com.rey.material.widget.RadioButton
+                style="@style/Material.Drawable.RadioButton"
+                android:id="@+id/minzu_shao"
+                android:layout_toRightOf="@id/minzu_han"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:textDirection="locale"
+                android:text="@string/feichaozu"
+                android:textSize="22sp"
+                android:gravity="center_vertical"
+                android:checked="false"
+                app:v_styleId="@array/radio_button"/>
+</RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:paddingLeft="20dp"
+    android:paddingBottom="3dp"
+    android:paddingTop="3dp"
+    android:layout_marginTop="8dp"
+	android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:background="@drawable/common_list_item_background_nopressed"
+    >
+    
+   <com.rey.material.widget.RadioButton
+                style="@style/Material.Drawable.RadioButton"
+                android:id="@+id/dangyuan_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                 android:layout_centerVertical="true"
+                android:textDirection="locale"
+                android:text="@string/all"
+                android:textSize="22sp"
+                android:gravity="center_vertical"
+                android:checked="true"
+                app:v_styleId="@array/radio_button"/>
+    
+    <com.rey.material.widget.RadioButton
+                style="@style/Material.Drawable.RadioButton"
+                android:id="@+id/dangyuan_zhonggong"
+                android:layout_toRightOf="@id/dangyuan_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                 android:layout_centerVertical="true"
+                android:textDirection="locale"
+                android:text="@string/dangyuan"
+                android:textSize="22sp"
+                android:gravity="center_vertical"
+                android:checked="false"
+                app:v_styleId="@array/radio_button"/>
+    
+    <com.rey.material.widget.RadioButton
+                style="@style/Material.Drawable.RadioButton"
+                android:id="@+id/dangyuan_fei"
+                android:layout_toRightOf="@id/dangyuan_zhonggong"
+                android:layout_width="wrap_content"
+                 android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="22sp"
+                android:textDirection="locale"
+                android:text="@string/notdangyuan"
+                android:gravity="center_vertical"
+                android:checked="false"
+                app:v_styleId="@array/radio_button"/>
+</RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation = "horizontal" 
+    android:paddingLeft="20dp"
+    android:focusable="true"  
+    android:focusableInTouchMode="true"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:background="@drawable/common_list_item_background_nopressed"
+    >
+
+    <com.rey.material.widget.TextView
+        android:id="@+id/small_age_text"
+        android:layout_width="90dip"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="25dip"
+        android:textSize="22sp"
+        android:text="年龄" />
+       
+	    <com.rey.material.widget.EditText
+                    android:id="@+id/small_age_edit"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="100.0dip"
+                    android:layout_marginLeft="10.0dip"
+		            android:layout_height="wrap_content"
+		            app:et_labelEnable="false"
+                    app:et_inputId="@+id/rd_et_period_input"
+                    android:numeric="integer" 
+                    android:maxLength="2"
+                    android:textSize="22sp"
+                    android:text=""
+                    
+                    android:layout_marginBottom="5dip"
+		            android:layout_gravity="bottom"/>
+	    
+	   <com.rey.material.widget.TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="25dip"
+			    android:layout_marginRight="25dip"
+			    android:layout_gravity="center"
+			    android:textSize="22sp"
+			    android:text="至"/>
+
+       
+	    <com.rey.material.widget.EditText
+                    android:id="@+id/small_age_edit_end"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="100.0dip"
+                    android:layout_marginLeft="10.0dip"
+		            android:layout_height="wrap_content"
+		            app:et_labelEnable="false"
+                    app:et_inputId="@+id/rd_et_period_input"
+                    android:numeric="integer" 
+                    android:maxLength="2"
+                    android:textSize="22sp"
+                    android:text=""
+                    
+		            android:layout_marginBottom="5dip"
+		            android:layout_gravity="bottom"/>
+      
+	   
+          
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation = "horizontal" 
+    android:paddingLeft="20dp"
+    android:layout_marginTop="0dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:background="@drawable/common_list_item_background_nopressed"
+    >
+    
+	  <com.rey.material.widget.TextView
+        android:layout_width="90dip"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="25dip"
+         android:textSize="22sp"
+        android:text="入党时间" />
+       
+	    <com.rey.material.widget.EditText
+                    android:id="@+id/dang_age_edit"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="100.0dip"
+                    android:layout_marginLeft="10.0dip"
+		            android:layout_height="wrap_content"
+		            app:et_labelEnable="false"
+                    app:et_inputId="@+id/rd_et_period_input"
+                    android:numeric="integer" 
+                    android:maxLength="4"
+                    android:textSize="22sp"
+
+		            android:layout_marginBottom="5dip"
+					android:layout_gravity="bottom"/>
+	    
+	   <com.rey.material.widget.TextView
+	            
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="25dip"
+			    android:layout_marginRight="25dip"
+			    android:layout_gravity="center"
+			    android:textSize="22sp"
+			    android:text="至"/>
+
+       
+	    <com.rey.material.widget.EditText
+                    android:id="@+id/dang_age_edit_end"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="100.0dip"
+                    android:layout_marginLeft="10.0dip"
+		            android:layout_height="wrap_content"
+		            app:et_labelEnable="false"
+                    app:et_inputId="@+id/rd_et_period_input"
+                    android:numeric="integer" 
+                    android:maxLength="4"
+                    android:textSize="22sp"
+		            android:layout_marginBottom="5dip"
+					android:layout_gravity="bottom"/>
+   
+          
+</LinearLayout>
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:paddingLeft="20dp"
+    android:orientation = "horizontal" 
+    android:layout_marginTop="0dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:background="@drawable/common_list_item_background_nopressed"
+    >
+    
+	  <com.rey.material.widget.TextView
+        android:layout_width="90dip"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:layout_marginRight="25dip"
+        android:text="参加工作时间" />
+       
+	    <com.rey.material.widget.EditText
+                    android:id="@+id/work_age_edit"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="100.0dip"
+                    android:layout_marginLeft="10.0dip"
+		            android:layout_height="wrap_content"
+		            app:et_labelEnable="false"
+                    app:et_inputId="@+id/rd_et_period_input"
+                    android:numeric="integer" 
+                     android:textSize="22sp"
+                    android:maxLength="4"
+		            android:layout_marginBottom="5dip"
+								android:layout_gravity="bottom"/>
+	    
+	   <com.rey.material.widget.TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="25dip"
+			    android:layout_marginRight="25dip"
+			    android:layout_gravity="center"
+			    android:textSize="22sp"
+			    android:text="至"/>
+
+       
+	    <com.rey.material.widget.EditText
+                    android:id="@+id/work_age_edit_end"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="100.0dip"
+                    android:layout_marginLeft="10.0dip"
+		            android:layout_height="wrap_content"
+		            app:et_labelEnable="false"
+                    app:et_inputId="@+id/rd_et_period_input"
+                    android:numeric="integer" 
+                    android:maxLength="4"
+                    android:textSize="22sp"
+                    
+                    
+		                android:layout_marginBottom="5dip"
+										android:layout_gravity="bottom"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation = "horizontal" 
+     android:paddingLeft="20dp"
+    android:focusable="true"  
+    android:focusableInTouchMode="true"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:visibility="gone"
+    android:background="@drawable/common_list_item_background_nopressed"
+    >
+    
+	  <com.rey.material.widget.TextView
+        android:layout_width="90dip"
+         android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="25dip"
+        android:textSize="22sp"
+        android:text="副科时间" />
+       
+	    <com.rey.material.widget.EditText
+                    android:id="@+id/fuke_age_edit"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="100.0dip"
+                    android:layout_marginLeft="10.0dip"
+		            android:layout_height="wrap_content"
+		            app:et_labelEnable="false"
+                    app:et_inputId="@+id/rd_et_period_input"
+                    android:numeric="integer" 
+                    android:maxLength="4"
+                    android:textSize="22sp"    
+		            android:layout_marginBottom="5dip"
+					android:layout_gravity="bottom"/>
+	    
+	   <com.rey.material.widget.TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="25dip"
+			    android:layout_marginRight="25dip"
+			    android:layout_gravity="center"
+			    android:textSize="22sp"
+			    android:text="至"/>
+
+       
+	    <com.rey.material.widget.EditText
+                    android:id="@+id/fuke_age_edit_end"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="100.0dip"
+                    android:layout_marginLeft="10.0dip"
+		            android:layout_height="wrap_content"
+		            app:et_labelEnable="false"
+                    app:et_inputId="@+id/rd_et_period_input"
+                    android:numeric="integer" 
+                    android:maxLength="4"
+                    android:textSize="22sp"
+                    
+                    
+		                android:layout_marginBottom="5dip"
+										android:layout_gravity="bottom"/>
+   
+          
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation = "horizontal" 
+     android:paddingLeft="20dp"
+    android:focusable="true"  
+    android:focusableInTouchMode="true"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:visibility="gone"
+    android:background="@drawable/common_list_item_background_nopressed"
+    >
+    
+	  <com.rey.material.widget.TextView
+        android:layout_width="90dip"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="25dip"
+        android:textSize="22sp"
+        android:text="正科时间" />
+       
+	    <com.rey.material.widget.EditText
+                    android:id="@+id/zhengke_age_edit"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="100.0dip"
+                    android:layout_marginLeft="10.0dip"
+		            android:layout_height="wrap_content"
+		            app:et_labelEnable="false"
+                    app:et_inputId="@+id/rd_et_period_input"
+                    android:numeric="integer" 
+                    android:maxLength="4"
+                    android:textSize="22sp"
+                    
+                    
+		                android:layout_marginBottom="5dip"
+										android:layout_gravity="bottom"/>
+	    
+	   <com.rey.material.widget.TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="25dip"
+			    android:layout_marginRight="25dip"
+			    android:layout_gravity="center"
+			    android:textSize="22sp"
+			    android:text="至"/>
+
+       
+	    <com.rey.material.widget.EditText
+                    android:id="@+id/zhengke_age_edit_end"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="100.0dip"
+                    android:layout_marginLeft="10.0dip"
+		            android:layout_height="wrap_content"
+		            app:et_labelEnable="false"
+                    app:et_inputId="@+id/rd_et_period_input"
+                    android:numeric="integer" 
+                    android:maxLength="4"
+                    android:textSize="22sp"
+                    
+                    
+		                android:layout_marginBottom="5dip"
+										android:layout_gravity="bottom"/>
+   
+          
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation = "horizontal" 
+     android:paddingLeft="20dp"
+    android:focusable="true"  
+    android:focusableInTouchMode="true"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:background="@drawable/common_list_item_background_nopressed"
+    >
+    
+	  <com.rey.material.widget.TextView
+        android:layout_width="90dip"
+         android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="25dip"
+        android:textSize="22sp"
+        android:text="副县时间" />
+       
+	    <com.rey.material.widget.EditText
+                    android:id="@+id/fuxian_age_edit"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="100.0dip"
+                    android:layout_marginLeft="10.0dip"
+		            android:layout_height="wrap_content"
+		            app:et_labelEnable="false"
+                    app:et_inputId="@+id/rd_et_period_input"
+                    android:numeric="integer" 
+                    android:maxLength="4"
+                    android:textSize="22sp"
+                    
+                    
+		             android:layout_marginBottom="5dip"
+				      android:layout_gravity="bottom"/>
+	    
+	   <com.rey.material.widget.TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="25dip"
+			    android:layout_marginRight="25dip"
+			    android:layout_gravity="center"
+			    android:textSize="22sp"
+			    android:text="至"/>
+
+       
+	    <com.rey.material.widget.EditText
+                    android:id="@+id/fuxian_age_edit_end"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="100.0dip"
+                    android:layout_marginLeft="10.0dip"
+		            android:layout_height="wrap_content"
+		            app:et_labelEnable="false"
+                    app:et_inputId="@+id/rd_et_period_input"
+                    android:numeric="integer" 
+                    android:maxLength="4"
+                    android:textSize="22sp"
+                    
+                    
+		            android:layout_marginBottom="5dip"
+					android:layout_gravity="bottom"/>
+   
+          
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:paddingLeft="20dp"
+    android:orientation = "horizontal" 
+    android:layout_marginTop="0dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:background="@drawable/common_list_item_background_nopressed"
+    >
+    
+	  <com.rey.material.widget.TextView
+        android:layout_width="90dip"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="25dip"
+        android:textSize="22sp"
+        android:text="正县时间" />
+       
+	    <com.rey.material.widget.EditText
+                    android:id="@+id/zhengxian_age_edit"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="100.0dip"
+                    android:layout_marginLeft="10.0dip"
+		            android:layout_height="wrap_content"
+		            app:et_labelEnable="false"
+                    app:et_inputId="@+id/rd_et_period_input"
+                    android:numeric="integer" 
+                    android:maxLength="4"
+                    android:textSize="22sp"
+                    
+                    
+		                android:layout_marginBottom="5dip"
+										android:layout_gravity="bottom"
+		            android:layout_centerVertical="true"/>
+	    
+	   <com.rey.material.widget.TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="25dip"
+			    android:layout_marginRight="25dip"
+			    android:layout_gravity="center"
+			    android:textSize="22sp"
+			    android:text="至"/>
+
+       
+	    <com.rey.material.widget.EditText
+                    android:id="@+id/zhengxian_age_edit_end"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="100.0dip"
+                    android:layout_marginLeft="10.0dip"
+		            android:layout_height="wrap_content"
+		            app:et_labelEnable="false"
+                    app:et_inputId="@+id/rd_et_period_input"
+                    android:numeric="integer" 
+                    android:maxLength="4"
+                    android:textSize="22sp"
+                    
+                    
+		                android:layout_marginBottom="5dip"
+										android:layout_gravity="bottom"/>
+   
+	   
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:paddingLeft="20dp"
+    android:orientation = "horizontal" 
+    android:layout_marginTop="0dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:background="@drawable/common_list_item_background_nopressed"
+    >
+    
+	  <com.rey.material.widget.TextView
+        android:layout_width="90dip"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="25dip"
+        android:textSize="22sp"
+        android:text="现职时间" />
+       
+	    <com.rey.material.widget.EditText
+                    android:id="@+id/xianzhi_age_edit"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="100.0dip"
+                    android:layout_marginLeft="10.0dip"
+		            android:layout_height="wrap_content"
+		            app:et_labelEnable="false"
+                    app:et_inputId="@+id/rd_et_period_input"
+                    android:numeric="integer" 
+                    android:maxLength="4"
+                    android:textSize="22sp"
+		            android:layout_marginBottom="5dip"
+					android:layout_gravity="bottom"/>
+	    
+	   <com.rey.material.widget.TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="25dip"
+			    android:layout_marginRight="25dip"
+			    android:layout_gravity="center"
+			    android:textSize="22sp"
+			    android:text="至"/>
+
+       
+	    <com.rey.material.widget.EditText
+                    android:id="@+id/xianzhi_age_edit_end"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="100.0dip"
+                    android:layout_marginLeft="10.0dip"
+		            android:layout_height="wrap_content"
+		            app:et_labelEnable="false"
+                    app:et_inputId="@+id/rd_et_period_input"
+                    android:numeric="integer" 
+                    android:maxLength="4"
+                    android:textSize="22sp"
+                    
+                    
+		                android:layout_marginBottom="5dip"
+						android:layout_gravity="bottom"/>
+   
+	   
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:orientation = "horizontal" 
+    android:layout_marginTop="0dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:background="@drawable/common_list_item_background_nopressed"
+    >
+    
+	  <com.rey.material.widget.TextView
+        android:layout_width="90dip"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="25dip"
+        android:textSize="22sp"
+        android:text="学科专业" />
+       
+	    <com.rey.material.widget.EditText
+                    android:id="@+id/xuekezhuanye_edit"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="150.0dip"
+                    android:layout_marginLeft="10.0dip"
+		            android:layout_height="wrap_content"
+		            app:et_labelEnable="false"
+                    app:et_inputId="@+id/rd_et_period_input"
+                    android:textSize="22sp"
+		            android:layout_marginBottom="5dip"
+					android:layout_gravity="bottom"/>
+	    
+	   <com.rey.material.widget.TextView
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="25dip"
+			    android:layout_marginRight="25dip"
+			    android:layout_gravity="center"
+			    android:textSize="22sp"
+			    android:text="从事岗位"/>
+
+       
+	    <com.rey.material.widget.EditText
+                    android:id="@+id/congshigangwei_edit"
+                    style="@style/Material.Widget.EditText.Light"
+                    android:layout_width="150.0dip"
+                    android:layout_marginLeft="10.0dip"
+		            android:layout_height="wrap_content"
+		            app:et_labelEnable="false"
+                    app:et_inputId="@+id/rd_et_period_input"
+                    android:textSize="22sp"
+		            android:layout_marginBottom="5dip"
+					android:layout_gravity="bottom"/>
+   
+	   
+</LinearLayout>
+ <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:background="@drawable/common_list_item_background_nopressed"
+    >
+    
+    <com.rey.material.widget.TextView
+	            android:id="@+id/quanrizhi_text"
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_centerVertical="true"
+			    android:layout_alignParentLeft="true"
+		      android:textSize="22sp"
+			    android:text="全日制学历"/>
+    
+     <com.rey.material.widget.CheckBox
+            style="@style/Material.Drawable.CheckBox"
+            android:id="@+id/gaozhong_degree_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="高中以下"
+            android:textSize="22sp"
+            android:layout_toRightOf="@id/quanrizhi_text"
+            android:layout_marginLeft="20dp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            app:v_styleId="@array/checkbox"/>
+     
+     <com.rey.material.widget.CheckBox
+            style="@style/Material.Drawable.CheckBox"
+            android:id="@+id/zhongzhuan_degree_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zhongzhuan_degree"
+            android:textSize="22sp"
+            android:layout_toRightOf="@id/gaozhong_degree_checkbox"
+            android:layout_marginLeft="20dp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            app:v_styleId="@array/checkbox"/>
+     
+    
+     <com.rey.material.widget.CheckBox
+            style="@style/Material.Drawable.CheckBox"
+            android:id="@+id/zhuan_degree_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zhuan_degree"
+            android:layout_toRightOf="@id/zhongzhuan_degree_checkbox"
+              android:layout_marginLeft="20dp"
+              android:textSize="22sp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            app:v_styleId="@array/checkbox"/>
+     
+   
+     <com.rey.material.widget.CheckBox
+            style="@style/Material.Drawable.CheckBox"
+            android:id="@+id/benke_degree_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/college_degree"
+            android:layout_below="@id/zhongzhuan_degree_checkbox"
+            android:layout_toRightOf="@id/quanrizhi_text"
+            android:layout_marginLeft="20dp"
+            android:textSize="22sp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            app:v_styleId="@array/checkbox"/>
+    
+    <com.rey.material.widget.CheckBox
+            style="@style/Material.Drawable.CheckBox"
+            android:id="@+id/master_degree_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="研究生"
+            android:textSize="22sp"
+            android:layout_below="@id/zhuan_degree_checkbox"
+            android:layout_toRightOf="@id/benke_degree_checkbox"
+            android:layout_alignLeft="@id/zhongzhuan_degree_checkbox"
+            android:layout_marginLeft="0dp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            app:v_styleId="@array/checkbox"/>
+    
+     <com.rey.material.widget.CheckBox
+            style="@style/Material.Drawable.CheckBox"
+            android:id="@+id/master_shuo_degree_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="硕士研究生"
+            android:textSize="22sp"
+            android:layout_below="@id/zhuan_degree_checkbox"
+            android:layout_toRightOf="@id/master_degree_checkbox"
+         
+            android:layout_marginLeft="0dp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            app:v_styleId="@array/checkbox"/>
+     
+   
+     <com.rey.material.widget.CheckBox
+            style="@style/Material.Drawable.CheckBox"
+            android:id="@+id/doctor_degree_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/doctor_degree"
+            android:layout_below="@id/zhuan_degree_checkbox"
+            android:layout_toRightOf="@id/master_shuo_degree_checkbox"
+            android:layout_marginLeft="20dp"
+            android:textSize="22sp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            app:v_styleId="@array/checkbox"/>
+ 
+</RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:background="@drawable/common_list_item_background_nopressed"
+    >
+    
+    <com.rey.material.widget.TextView
+	            android:id="@+id/zaizhi_text"
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_centerVertical="true"
+			    android:layout_alignParentLeft="true"
+			    android:textSize="22sp"
+			    android:text=" 在 职 学 历"/>
+    
+     <com.rey.material.widget.CheckBox
+            style="@style/Material.Drawable.CheckBox"
+            android:id="@+id/zhongzhuan_degree_checkbox_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zhongzhuan_degree"
+            android:layout_toRightOf="@id/zaizhi_text"
+            android:layout_marginLeft="20dp"
+             android:textSize="22sp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            app:v_styleId="@array/checkbox"/>
+     
+    
+     <com.rey.material.widget.CheckBox
+            style="@style/Material.Drawable.CheckBox"
+            android:id="@+id/zhuan_degree_checkbox_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zhuan_degree"
+            android:layout_toRightOf="@id/zhongzhuan_degree_checkbox_1"
+            android:layout_marginLeft="20dp"
+            android:textSize="22sp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            app:v_styleId="@array/checkbox"/>
+     <com.rey.material.widget.CheckBox
+            android:id="@+id/benke_degree_checkbox_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Material.Drawable.CheckBox"
+            android:text="@string/college_degree"
+            android:layout_toRightOf="@id/zhuan_degree_checkbox_1"
+            android:layout_marginLeft="20dp"
+            android:textSize="22sp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            app:v_styleId="@array/checkbox"/>
+  
+    
+    <com.rey.material.widget.CheckBox
+            style="@style/Material.Drawable.CheckBox"
+            android:id="@+id/master_degree_checkbox_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="研究生"
+            android:textSize="22sp"
+            android:layout_below="@id/zhuan_degree_checkbox_1"
+            android:layout_toRightOf="@id/zaizhi_text"
+            android:layout_marginLeft="20dp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            app:v_styleId="@array/checkbox"/>
+    
+     
+    <com.rey.material.widget.CheckBox
+            style="@style/Material.Drawable.CheckBox"
+            android:id="@+id/master_shuo_degree_checkbox_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="硕士研究生"
+            android:textSize="22sp"
+            android:layout_below="@id/zhuan_degree_checkbox_1"
+            android:layout_toRightOf="@id/master_degree_checkbox_1"
+            android:layout_marginLeft="20dp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            app:v_styleId="@array/checkbox"/>
+     
+   
+     <com.rey.material.widget.CheckBox
+            style="@style/Material.Drawable.CheckBox"
+            android:id="@+id/doctor_degree_checkbox_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/doctor_degree"
+            android:layout_below="@id/zhuan_degree_checkbox_1"
+            android:layout_toRightOf="@id/master_shuo_degree_checkbox_1"
+            android:layout_marginLeft="20dp"
+            android:textSize="22sp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            app:v_styleId="@array/checkbox"/>
+ 
+</RelativeLayout>
+ <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:background="@drawable/common_list_item_background_nopressed"
+    >
+    
+    <com.rey.material.widget.TextView
+	            android:id="@+id/zhiji_text"
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_centerVertical="true"
+			    android:layout_alignParentLeft="true"
+			    android:textSize="22sp"
+			    android:text=" 现 任 职 级"/>
+    
+     <com.rey.material.widget.CheckBox
+            style="@style/Material.Drawable.CheckBox"
+            android:id="@+id/keyuan_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="科员"
+            android:textSize="22sp"
+            android:layout_toRightOf="@id/zhiji_text"
+            android:layout_marginLeft="20dp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            app:v_styleId="@array/checkbox"/>
+     
+    
+     <com.rey.material.widget.CheckBox
+            style="@style/Material.Drawable.CheckBox"
+            android:id="@+id/fuke_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="副科"
+            android:layout_toRightOf="@id/keyuan_checkbox"
+            android:layout_marginLeft="20dp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            app:v_styleId="@array/checkbox"/>
+     
+   
+     <com.rey.material.widget.CheckBox
+            style="@style/Material.Drawable.CheckBox"
+            android:id="@+id/zhengke_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正科"
+            android:textSize="22sp"
+            android:layout_below="@id/keyuan_checkbox"
+            android:layout_toRightOf="@id/zhiji_text"
+            android:layout_marginLeft="20dp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            app:v_styleId="@array/checkbox"/>
+    
+    <com.rey.material.widget.CheckBox
+            style="@style/Material.Drawable.CheckBox"
+            android:id="@+id/fuchu_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="副县"
+            android:textSize="22sp"
+            android:layout_below="@id/keyuan_checkbox"
+            android:layout_toRightOf="@id/zhengke_checkbox"
+            android:layout_marginLeft="20dp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            app:v_styleId="@array/checkbox"/>
+     
+   
+     <com.rey.material.widget.CheckBox
+            style="@style/Material.Drawable.CheckBox"
+            android:id="@+id/zhengchu_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正县"
+            android:textSize="22sp"
+            android:layout_below="@id/keyuan_checkbox"
+            android:layout_toRightOf="@id/fuchu_checkbox"
+            android:layout_marginLeft="20dp"
+            android:checked="false"
+            android:gravity="center_vertical"
+            app:v_styleId="@array/checkbox"/>
+ 
+</RelativeLayout>
+ 
+ <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    android:paddingLeft="20dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:background="@drawable/common_list_item_background_nopressed"
+    >
+    
+   <com.rey.material.widget.CheckBox
+                style="@style/Material.Drawable.CheckBox"
+                android:id="@+id/check_chaopei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_centerVertical="true"
+                android:textDirection="locale"
+                android:text="是否超配"
+                android:textSize="22sp"
+                android:gravity="center_vertical"
+                android:checked="false"
+                app:v_styleId="@array/checkbox"/>
+    
+    <com.rey.material.widget.CheckBox
+                style="@style/Material.Drawable.CheckBox"
+                android:id="@+id/check_daiguan"
+                android:layout_toRightOf="@id/check_chaopei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:textDirection="locale"
+                android:text="是否代管"
+                android:textSize="22sp"
+                android:gravity="center_vertical"
+                android:checked="false"
+                app:v_styleId="@array/checkbox"/>
+    
+    <com.rey.material.widget.CheckBox
+                style="@style/Material.Drawable.CheckBox"
+                android:id="@+id/check_jiangtuixiu"
+                android:layout_toRightOf="@id/check_daiguan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:textDirection="locale"
+                android:text="将退休人员"
+                android:textSize="22sp"
+                android:gravity="center_vertical"
+                android:checked="false"
+                android:visibility="gone"
+                app:v_styleId="@array/checkbox"/>
+</RelativeLayout>
+ <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:paddingLeft="20dp"
+    android:paddingBottom="3dp"
+    android:paddingTop="3dp"
+    android:layout_marginTop="8dp"
+	android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/common_list_item_background_nopressed"
+    >
+    
+   <com.rey.material.widget.RadioButton
+                style="@style/Material.Drawable.RadioButton"
+                android:id="@+id/zhengxian_houbei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_centerVertical="true"
+                android:enabled="false"
+                android:textDirection="locale"
+                android:text="正县后备"
+                android:textSize="22sp"
+                android:gravity="center_vertical"
+                android:checked="true"
+                app:v_styleId="@array/radio_button"/>
+    
+    <com.rey.material.widget.RadioButton
+                style="@style/Material.Drawable.RadioButton"
+                android:id="@+id/fudi_houbei"
+                android:layout_toRightOf="@id/zhengxian_houbei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                 android:layout_centerVertical="true"
+                android:textDirection="locale"
+                 android:enabled="false"
+                android:text="副地后备"
+                android:textSize="22sp"
+                android:gravity="center_vertical"
+                android:checked="false"
+                app:v_styleId="@array/radio_button"/>
+    
+    <com.rey.material.widget.RadioButton
+                style="@style/Material.Drawable.RadioButton"
+                android:id="@+id/zhengdi_houbei"
+                android:layout_toRightOf="@id/fudi_houbei"
+                android:layout_width="wrap_content"
+                 android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:textDirection="locale"
+                android:enabled="false"
+                android:text="正地后备"
+                android:textSize="22sp"
+                android:gravity="center_vertical"
+                android:checked="false"
+                app:v_styleId="@array/radio_button"/>
+</RelativeLayout>
+ 
+</LinearLayout>
+ </ScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false" android:color="#ffe0e0e0" />
+    <item android:state_pressed="true"  android:color="#00e0e0e0" />
+    <item android:state_focused="true"  android:color="#00e0e0ff" />
+    <item android:drawable="@drawable/login_button_nor" />
+</selector>

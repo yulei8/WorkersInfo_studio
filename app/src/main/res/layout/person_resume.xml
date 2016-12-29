@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+  
+
+    <com.chinamobile.workerspace.ui.BounceScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/coversation_bg"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:scrollbarThumbVertical="@drawable/scrollbar_handle_vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="10.0dip"
+            android:background="@drawable/shape_bg"
+            android:paddingRight="10.0dip" >
+     
+            <LinearLayout
+                android:id="@+id/personresume_text_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="40.0dip"
+                android:orientation="vertical">
+               
+                <LinearLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="20.0dip"
+	                android:orientation="horizontal" >
+		                <TextView   
+		                    style="@style/B2_Font"
+		                    android:layout_width="200.0dip"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                    android:duplicateParentState="true"
+		                    android:gravity="center"
+		                    android:singleLine="true"
+		                    android:text="姓                名 :" />
+		                <TextView
+		                    style="@style/B2_Font"
+		                    android:id="@+id/personresume_first_line"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                    android:duplicateParentState="true"
+		                    android:gravity="center|left"
+		                    android:singleLine="false"
+		                    android:text="于雷" />
+                   </LinearLayout>
+                
+                     <LinearLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="20.0dip"
+	                android:orientation="horizontal" >
+		                <TextView
+		                    
+		                    style="@style/B2_Font"
+		                    android:layout_width="200.0dip"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                   
+		                    android:duplicateParentState="true"
+		                    android:gravity="center"
+		                    android:singleLine="true"
+		                    android:text="姓                别 :" />
+		                <TextView
+		                    style="@style/B2_Font"
+		                    android:id="@+id/personresume_second_line"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                    android:duplicateParentState="true"
+		                    android:gravity="center|left"
+		                    android:singleLine="false"
+		                    android:text="于雷" />
+                   </LinearLayout>
+                 <LinearLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="20.0dip"
+	                android:orientation="horizontal" >
+		                <TextView
+		                    
+		                    style="@style/B2_Font"
+		                    android:layout_width="200.0dip"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                   
+		                    android:duplicateParentState="true"
+		                    android:gravity="center"
+		                    android:singleLine="true"
+		                    android:text="民                族 :" />
+		                <TextView
+		                    style="@style/B2_Font"
+		                    android:id="@+id/personresume_third_line"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                    android:duplicateParentState="true"
+		                    android:gravity="center|left"
+		                    android:singleLine="false"
+		                    android:text="于雷" />
+                   </LinearLayout>
+                 <LinearLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="20.0dip"
+	                android:orientation="horizontal" >
+		                <TextView
+		                    
+		                    style="@style/B2_Font"
+		                    android:layout_width="200.0dip"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                   
+		                    android:duplicateParentState="true"
+		                    android:gravity="center"
+		                    android:singleLine="true"
+		                    android:text="籍                贯 :" />
+		                <TextView
+		                    style="@style/B2_Font"
+		                    android:id="@+id/personresume_jiguan_line"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                    android:duplicateParentState="true"
+		                    android:gravity="center|left"
+		                    android:singleLine="false"
+		                    android:text="于雷" />
+                   </LinearLayout>
+                
+                  <LinearLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="20.0dip"
+	                android:orientation="horizontal" >
+		                <TextView
+		                    
+		                    style="@style/B2_Font"
+		                    android:layout_width="200.0dip"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                   
+		                    android:duplicateParentState="true"
+		                    android:gravity="center"
+		                    android:singleLine="true"
+		                    android:text="出      生       地 :" />
+		                <TextView
+		                    style="@style/B2_Font"
+		                    android:id="@+id/personresume_chushengdi_line"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                    android:duplicateParentState="true"
+		                    android:gravity="center|left"
+		                    android:singleLine="false"
+		                    android:text="于雷" />
+                   </LinearLayout>
+                   <LinearLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="20.0dip"
+	                android:orientation="horizontal" >
+		                <TextView
+		                    
+		                    style="@style/B2_Font"
+		                    android:layout_width="200.0dip"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                    android:duplicateParentState="true"
+		                    android:gravity="center"
+		                    android:singleLine="true"
+		                    android:text="成      长       地 :" />
+		                <TextView
+		                    style="@style/B2_Font"
+		                    android:id="@+id/personresume_chengzhangdi_line"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                    android:duplicateParentState="true"
+		                    android:gravity="center|left"
+		                    
+		                    android:singleLine="false"
+		                    android:text="于雷" />
+                   </LinearLayout>
+                   <LinearLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="20.0dip"
+	                android:orientation="horizontal" >
+		                <TextView
+		                    
+		                    style="@style/B2_Font"
+		                    android:layout_width="200.0dip"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                   
+		                    android:duplicateParentState="true"
+		                    android:gravity="center"
+		                   
+		                    android:singleLine="true"
+		                    android:text="出   生  年   月 :" />
+		                <TextView
+		                    style="@style/B2_Font"
+		                    android:id="@+id/personresume_fourth_line"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                    android:duplicateParentState="true"
+		                    android:gravity="center|left"
+		                    
+		                    android:singleLine="false"
+		                    android:text="于雷" />
+                   </LinearLayout>
+                  
+                    <LinearLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="20.0dip"
+	                android:orientation="horizontal" >
+		                <TextView
+		                    
+		                    style="@style/B2_Font"
+		                    android:layout_width="200.0dip"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"              
+		                    android:duplicateParentState="true"
+		                    android:gravity="center"
+		                    
+		                    android:singleLine="true"
+		                    android:text="参加工作时间 :" />
+		                <TextView
+		                    style="@style/B2_Font"
+		                    android:id="@+id/personresume_fifth_line"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                    android:duplicateParentState="true"
+		                    android:gravity="center|left"
+		                    android:singleLine="false"
+		                    android:text="于雷" />
+                   </LinearLayout>
+                  
+                 <LinearLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="20.0dip"
+	                android:orientation="horizontal" >
+		                <TextView
+		                    
+		                    style="@style/B2_Font"
+		                    android:layout_width="200.0dip"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                    android:duplicateParentState="true"
+		                    android:gravity="center"
+		                    android:singleLine="true"
+		                    android:text="入  党  时    间 :" />
+		                <TextView
+		                    style="@style/B2_Font"
+		                    android:id="@+id/personresume_six_line"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                    android:duplicateParentState="true"
+		                    android:gravity="center|left"
+		                    android:singleLine="false"
+		                    android:text="于雷" />
+                   </LinearLayout>
+                   
+                 <LinearLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="20.0dip"
+	                android:orientation="horizontal" >
+		                <TextView
+		                    style="@style/B2_Font"
+		                    android:layout_width="200.0dip"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                    android:duplicateParentState="true"
+		                    android:gravity="center"
+		                    android:singleLine="true"
+		                    android:text="全 日 制 教 育 :" />
+		                <TextView
+		                    style="@style/B2_Font"
+		                    android:id="@+id/personresume_7_line"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                    android:duplicateParentState="true"
+		                    android:gravity="center|left"
+		                    android:singleLine="false"
+		                    android:text="于雷" />
+                   </LinearLayout>
+                   <LinearLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="20.0dip"
+	                android:orientation="horizontal" >
+		                <TextView
+		                    style="@style/B2_Font"
+		                    android:layout_width="200.0dip"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                    android:duplicateParentState="true"
+		                    android:gravity="center"
+		                    android:singleLine="true"
+		                    android:text="在   职  教   育 :" />
+		                <TextView
+		                    style="@style/B2_Font"
+		                    android:id="@+id/personresume_8_line"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                    android:duplicateParentState="true"
+		                    android:gravity="center|left"
+		                    android:singleLine="false"
+		                    android:text="于雷" />
+                   </LinearLayout>
+                   <LinearLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="20.0dip"
+	                android:orientation="horizontal" >
+		                <TextView
+		                    style="@style/B2_Font"
+		                    android:layout_width="200.0dip"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                    android:duplicateParentState="true"
+		                    android:gravity="center"
+		                    android:singleLine="true"
+		                    android:text="级                别 :" />
+		                <TextView
+		                    style="@style/B2_Font"
+		                    android:id="@+id/personresume_9_line"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                    android:duplicateParentState="true"
+		                    android:gravity="center|left"
+		                    android:singleLine="false"
+		                    android:text="于雷" />
+                   </LinearLayout>
+                   <LinearLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="20.0dip"
+	                android:orientation="horizontal" >
+		                <TextView
+		                    style="@style/B2_Font"
+		                    android:layout_width="200.0dip"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                    android:duplicateParentState="true"
+		                    android:gravity="center"
+		                    android:singleLine="true"
+		                    android:text="现  职   时   间 :" />
+		                <TextView
+		                    style="@style/B2_Font"
+		                    android:id="@+id/personresume_10_line"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                    android:duplicateParentState="true"
+		                    android:gravity="center|left"
+		                    android:singleLine="false"
+		                    android:text="于雷" />
+                   </LinearLayout>
+                   <LinearLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="20.0dip"
+	                android:orientation="horizontal" >
+		                <TextView
+		                    style="@style/B2_Font"
+		                    android:layout_width="200.0dip"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                    android:duplicateParentState="true"
+		                    android:gravity="center"
+		                    android:singleLine="true"
+		                    android:text="现  任   职   务 :" />
+		                <TextView
+		                    style="@style/B2_Font"
+		                    android:id="@+id/personresume_11_line"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"
+		                    android:layout_gravity="center"
+		                    android:duplicateParentState="true"
+		                    android:gravity="center|left"
+		                    android:singleLine="false"
+		                    android:text="于雷" />
+                   </LinearLayout>
+                </LinearLayout>
+           
+                <ImageView
+                    android:layout_above="@id/personresume_text_layout"
+                    android:layout_centerHorizontal="true"
+	                android:id="@+id/personresume_avator"
+	                android:layout_marginBottom="25dip"
+	                android:layout_marginTop="25dip"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:maxHeight="660dp"
+	                android:maxWidth="440dp"  
+	                android:src="@drawable/test_image" />
+
+            
+        </RelativeLayout>
+    </com.chinamobile.workerspace.ui.BounceScrollView>
+
+</LinearLayout>

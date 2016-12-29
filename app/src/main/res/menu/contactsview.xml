@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/view_menu_last"
+        android:showAsAction="always"
+        android:title="上一个"/>
+    <item
+        android:id="@+id/view_menu_next"
+        android:showAsAction="always"
+        android:title="下一个"/>
+    <item
+        android:id="@+id/view_menu_save"
+        android:showAsAction="always"
+        android:textSize="25sp"
+        android:title="查看收藏"/>
+    <item
+        android:id="@+id/menu_save"
+        android:icon="@drawable/icon3"
+        android:title="收藏"
+        android:showAsAction="always|withText"/>
+
+</menu>

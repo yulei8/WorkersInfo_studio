@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"    
+    android:background="#fff0f3f6"
+   >
+   
+    
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/common_list_item_background"
+    android:paddingBottom="3dp"
+    android:paddingTop="3dp"   
+    >
+    
+    <RelativeLayout
+        android:id="@+id/familys_item_left_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp" >
+        
+        <ImageView
+	        android:id="@+id/family_item_icon"
+	        android:layout_width="90dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5dp"
+	        android:layout_marginBottom="5dp"
+	        android:layout_centerInParent="true" 
+	        android:src="@drawable/family"/>        
+        
+    </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/family_item_first_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/familys_item_left_layout" 
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="3dp"
+        android:gravity="center|left"
+        android:text="name"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/family_item_second_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/familys_item_left_layout"
+        android:layout_below="@id/family_item_first_line"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="2dp"
+        android:gravity="center|left"
+        android:text="name1"
+        android:textSize="18sp" />
+    
+    <TextView
+        android:id="@+id/family_item_third_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/familys_item_left_layout"
+        android:layout_below="@id/family_item_second_line"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="3dp"
+        android:gravity="center|left"
+        android:text="name2"
+        android:textSize="18sp" />
+    
+    <TextView
+        android:id="@+id/family_item_fourth_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/familys_item_left_layout"
+        android:layout_toRightOf="@id/familys_item_left_layout"
+        android:layout_below="@id/family_item_third_line"
+        android:layout_marginLeft="20dp"
+        android:gravity="center|left"
+        android:text="mobile"
+        android:textSize="18sp" />
+</RelativeLayout>
+</LinearLayout>

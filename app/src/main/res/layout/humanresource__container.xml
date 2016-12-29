@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_body_main_container_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eee" >  
+
+    <RelativeLayout
+        android:id="@+id/main_body_main_container_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_bar"
+        >                         
+         <LinearLayout
+            android:id="@+id/msgs_container"
+            android:clickable="true"  
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="0dp"  
+            android:baselineAligned="false"                    
+        	>
+        	
+            <LinearLayout
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:orientation="vertical"
+              	android:id="@+id/humanresource_person_panel"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/humanresource_container_person"
+        			android:layout_width="32dp"
+        			android:layout_height="32dp"
+        			android:layout_marginTop="3dp"
+        			android:clickable="true"
+        			android:src="@drawable/stat_ry_h" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/personlist"
+            		android:textColor="#fff"
+            		android:textSize="16sp" 
+            		android:layout_marginBottom="5dip"/>                
+        	 </LinearLayout>
+        	 <LinearLayout
+        	    android:id="@+id/humanresource_pie_panel"
+            	android:clickable="true" 
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/humanresource_container_pie"
+        			android:layout_width="32dp"
+        			android:layout_height="32dp"
+        			android:layout_marginTop="3dp"
+        			android:clickable="true"
+        			android:src="@drawable/stat_bzt" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/piechart"
+            		android:textColor="#fff"
+            		android:textSize="16sp" 
+            		android:layout_marginBottom="5dip"/>                
+        	 </LinearLayout>
+        	 <LinearLayout
+        	    android:id="@+id/humanresource_bar_panel"
+            	android:clickable="true" 
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/humanresource_container_bar"
+        			android:layout_width="32dp"
+        			android:layout_height="32dp"
+        			android:layout_marginTop="3dp"
+        			android:clickable="true"
+        			android:src="@drawable/stat_zzt" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/barchart"
+            		android:textColor="#fff"
+            		android:textSize="16sp" />                
+        	 </LinearLayout>
+        	 
+        	 <LinearLayout
+        	    android:id="@+id/humanresource_list_panel"
+            	android:clickable="true" 
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/humanresource_container_list"
+        			android:layout_width="32dp"
+        			android:layout_height="32dp"
+        			android:layout_marginTop="3dp"
+        			android:clickable="true"
+        			android:src="@drawable/stat_wzlb" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/wordlist"
+            		android:textColor="#fff"
+            		android:textSize="16sp"
+            		android:layout_marginBottom="5dip" />                
+        	 </LinearLayout>        
+          
+        </LinearLayout>     
+       
+    </RelativeLayout>
+     <FrameLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" 
+    	android:layout_alignParentTop="true"
+    	android:layout_above="@id/main_body_main_container_bottom"       
+        android:orientation="vertical" >    
+        
+        
+        
+       
+         <com.chinamobile.workerspace.ui.CustomMainBodyView
+        	android:id="@+id/humanresource_main_container_tabpager"
+        	android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"        	
+        	android:layout_gravity="center" > 
+        </com.chinamobile.workerspace.ui.CustomMainBodyView> 
+               
+         
+    </FrameLayout>
+   
+
+</RelativeLayout>

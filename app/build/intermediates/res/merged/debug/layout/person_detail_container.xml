@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_body_main_container_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eee" >  
+
+    <RelativeLayout
+        android:id="@+id/main_body_main_container_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_bar"  
+        >                         
+         <LinearLayout
+            android:clickable="true"  
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="2dp"  
+            android:baselineAligned="false"                    
+        	>
+        	
+            <LinearLayout
+                android:id="@+id/resume_container_short_panel"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/resume_container_short"
+        			android:layout_width="32dp"
+        			android:layout_height="32dp"
+        			android:layout_marginTop="3dp"
+        			android:clickable="true"
+        			android:src="@drawable/stat_ry_h" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/resume"
+            		android:textColor="#fff"
+            		android:textSize="16sp"
+            		android:layout_marginBottom="5dip" />                
+        	 </LinearLayout>
+        	 <LinearLayout
+        	    android:id="@+id/resume_container_detail_panel"
+            	android:clickable="true" 
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/resume_container_detail"
+        			android:layout_width="32dp"
+        			android:layout_height="32dp"
+        			android:layout_marginTop="3dp"
+        			android:clickable="true"
+        			android:src="@drawable/info_xx" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/detail"
+            		android:textColor="#fff"
+            		android:textSize="16sp" 
+            		android:layout_marginBottom="5dip"/>                
+        	 </LinearLayout>
+        	 
+        	 
+        	 <LinearLayout
+        	    android:id="@+id/resume_container_resume_panel"
+            	android:clickable="true" 
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/resume_container_resume"
+        			android:layout_width="32dp"
+        			android:layout_height="32dp"
+        			android:layout_marginTop="3dp"
+        			android:clickable="true"
+        			android:src="@drawable/info_jl" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/record"
+            		android:textColor="#fff"
+            		android:textSize="16sp" 
+            		android:layout_marginBottom="5dip"/>                
+        	 </LinearLayout>        
+             <LinearLayout
+        	    android:id="@+id/resume_container_family_panel"
+            	android:clickable="true" 
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+              	android:gravity="center_horizontal"
+              	android:orientation="vertical"
+              	android:layout_weight="1">               	
+                <ImageView
+            		android:id="@+id/resume_container_family"
+        			android:layout_width="32dp"
+        			android:layout_height="32dp"
+        			android:layout_marginTop="3dp"
+        			android:clickable="true"
+        			android:src="@drawable/info_home" />
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/family"
+            		android:textColor="#fff"
+            		android:textSize="16sp" 
+            		android:layout_marginBottom="5dip"/>                
+        	 </LinearLayout>
+        </LinearLayout>     
+       
+    </RelativeLayout>
+   
+     <FrameLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" 
+    	android:layout_alignParentTop="true"
+    	android:layout_above="@id/main_body_main_container_bottom"       
+        android:orientation="vertical" >    
+        
+         <com.chinamobile.workerspace.ui.CustomMainBodyView
+        	android:id="@+id/resume_main_container_tabpager"
+        	android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"        	
+        	android:layout_gravity="center" > 
+        </com.chinamobile.workerspace.ui.CustomMainBodyView> 
+
+    </FrameLayout>  
+
+</RelativeLayout>

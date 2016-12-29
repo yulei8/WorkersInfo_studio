@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"    
+    android:background="#fff0f3f6"
+   >
+   
+    
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/common_list_item_background"
+    android:paddingBottom="3dp"
+    android:paddingTop="3dp"   
+    >
+   
+    
+    <TextView
+        android:id="@+id/experience_first_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        
+        android:gravity="center|left"
+        android:text="name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/experience_second_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_alignBottom="@+id/experience_first_line"
+        android:layout_toRightOf="@+id/experience_first_line"
+        android:layout_marginLeft="20dp"
+        android:gravity="center|left"
+        android:text="mobile"
+        android:textSize="20sp" />
+
+</RelativeLayout>
+</LinearLayout>

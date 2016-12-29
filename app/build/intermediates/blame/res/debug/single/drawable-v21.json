@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "D:\\projects\\android\\WorkersInfo_studio\\app\\build\\intermediates\\exploded-aar\\WorkersInfo_studio\\appcompat_v7\\unspecified\\res\\drawable-v21\\abc_edit_text_material.xml"
+    }
+]
