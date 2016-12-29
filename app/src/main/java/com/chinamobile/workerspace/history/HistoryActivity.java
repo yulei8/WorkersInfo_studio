@@ -28,7 +28,7 @@ import com.chinamobile.workspace.ui.swipelistview.SwipeListView;
 public class HistoryActivity extends Activity implements MyDeleteCallback {
 
 	
-	
+	//yulei test
 
 	
 	private ContactsManager   mContactsMgr ;
